@@ -26,6 +26,7 @@ spec:
       labels:
         org: empire
         class: deathstar
+        name: deathstar
     spec:
       containers:
       - name: deathstar
@@ -38,6 +39,7 @@ metadata:
   labels:
     org: empire
     class: tiefighter
+    name: tiefighter
 spec:
   containers:
   - name: spaceship
@@ -50,6 +52,7 @@ metadata:
   labels:
     org: alliance
     class: xwing
+    name: xwing
 spec:
   containers:
   - name: spaceship
